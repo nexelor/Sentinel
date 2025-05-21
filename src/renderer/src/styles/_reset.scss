@@ -1,0 +1,71 @@
+/* Box sizing reset */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body, h1, h2, h3, h4, h5, h6,
+p, figure, blockquote, dl, dd,
+ul, ol, li, pre, form, fieldset,
+legend, textarea, input, select, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove list styles */
+ul, ol {
+    list-style: none;
+}
+
+/* Remove border and appearance from form elements */
+input, button, textarea, select {
+    border: none;
+    background: none;
+    font: inherit;
+    color: inherit;
+    appearance: none;
+}
+
+/* Remove anchor text decoration */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    background: #fff;
+    color: #000;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Reset images and media */
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Reset tables */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Inherit fonts for inputs and buttons */
+button, input, optgroup, select, textarea {
+    font: inherit;
+}
+
+/* Remove all outline on focus (optional: use focus-visible for accessibility) */
+:focus {
+    outline: none;
+}
